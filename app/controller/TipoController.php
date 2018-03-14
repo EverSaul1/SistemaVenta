@@ -32,7 +32,7 @@ class TipoController
                 $tipo = Tipo::find(input('tipo_id'));
             }
 
-            $tipo->nombre = input("tipo");
+            $tipo->tipo = input("tipo");
             
             $tipo->guardar();
 
