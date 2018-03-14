@@ -29,7 +29,7 @@
 					<?php foreach ($productos as $producto) {?>
 					<tr>
 						<td><?php echo $producto->id ?></td>
-						<td><?php echo $producto->tipo_tipo ?></td>
+						<td><?php echo $producto->tipo_id ?></td>
 						<td><?php echo 'S/. ' . number_format($producto->precio, 2) ?></td>
 						<td>
 							<a class="btn btn-primary btn-sm" href="<?php url('producto/editar/' . $producto->id)?>">Editar</a>
