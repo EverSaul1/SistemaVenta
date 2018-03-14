@@ -32,7 +32,7 @@ class ProductoController
                 $producto = Producto::find(input('producto_id'));
             }
 
-            $producto->nombre = input("nombre");
+            $producto->tipo_id = input("tipo_tipo");
             $producto->precio = input("precio");
             $producto->guardar();
 

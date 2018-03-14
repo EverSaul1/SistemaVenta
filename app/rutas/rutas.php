@@ -7,5 +7,6 @@ $ruta->controladores(array(
     "/usuario"  => "UsuarioController",
     "/venta"    => "VentaController",
     "/producto" => "ProductoController",
+    "/tipo" => "TipoController",
     "/admin"    => "AdminController",
 ));

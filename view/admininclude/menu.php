@@ -54,6 +54,9 @@
 					<a href="<?php url('producto')?>"><i class="fa fa-table fa-fw"></i> Productos</a>
 				</li>
 				<li>
+					<a href="<?php url('tipo')?>"><i class="fa fa-table fa-fw"></i> Tipos</a>
+				</li>
+				<li>
 					<a href="<?php url('venta')?>"><i class="fa fa-edit fa-fw"></i> Ventas</a>
 				</li>
 				<li>

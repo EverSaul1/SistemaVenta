@@ -9,7 +9,7 @@
 		<div id="page-wrapper">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 class="page-header">Listado de productos | <a href="<?php url('producto/nuevo')?>" class="btn btn-primary"><i class="fa fa-plus"></i> Nuevo producto</a>
+					<h1 class="page-header">Listado de Tipos | <a href="<?php url('tipo/nuevo')?>" class="btn btn-primary"><i class="fa fa-plus"></i> Nuevo tipo</a>
 					</h1>
 				</div>
 				<!-- /.col-lg-12 -->
@@ -20,20 +20,19 @@
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Tipo</th>
-						<th>Precio</th>
+						<th>Nombre</th>
 						<th>Acción</th>
 					</tr>
 				</thead>
 				<tbody>
-					<?php foreach ($productos as $producto) {?>
+					<?php foreach ($tipos as $tipo) {?>
 					<tr>
-						<td><?php echo $producto->id ?></td>
-						<td><?php echo $producto->tipo_tipo ?></td>
-						<td><?php echo 'S/. ' . number_format($producto->precio, 2) ?></td>
+						<td><?php echo $tipo->id ?></td>
+						<td><?php echo $tipo->tipo ?></td>
+						
 						<td>
-							<a class="btn btn-primary btn-sm" href="<?php url('producto/editar/' . $producto->id)?>">Editar</a>
-							<button class="btn btn-danger btn-sm" onclick="confirmar('<?php url('producto/eliminar/' . $producto->id)?>')">Eliminar</button>
+							<a class="btn btn-primary btn-sm" href="<?php url('tipo/editar/' . $tipo->id)?>">Editar</a>
+							<button class="btn btn-danger btn-sm" onclick="confirmar('<?php url('tipo/eliminar/' . $tipo->id)?>')">Eliminar</button>
 						</td>
 					</tr>
 					<?php }?>

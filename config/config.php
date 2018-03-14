@@ -8,7 +8,7 @@
 // host
 define("HOST","localhost");
 // base de datos
-define("DB","prueba01");
+define("DB","prueba02");
 define("USER","root");
 //password
 define("PASSWORD","");
