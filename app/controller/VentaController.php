@@ -24,7 +24,7 @@ class VentaController
     {
         $venta              = new Venta();
         $venta->cliente     = input('nombre');
-        $venta->monto_total = input('total');
+        $venta->monto_venta = input('total');
         $venta->fecha       = date('Y-m-d');
 
         if ($venta->guardar()) {

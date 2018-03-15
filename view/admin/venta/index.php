@@ -22,6 +22,7 @@
 						<th>#</th>
 						<th>Nombre</th>
 						<th>Precio</th>
+						
 						<th>Acción</th>
 					</tr>
 				</thead>
