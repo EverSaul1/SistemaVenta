@@ -51,13 +51,17 @@
 				</li>
 
 				<li>
-					<a href="<?php url('producto')?>"><i class="fa fa-table fa-fw"></i> Productos</a>
+					<a href="<?php url('producto')?>"><i class="glyphicon glyphicon-qrcode"></i> Productos</a>
 				</li>
 				<li>
-					<a href="<?php url('tipo')?>"><i class="fa fa-table fa-fw"></i> Tipos</a>
+					<a href="<?php url('tipo')?>"><i class="glyphicon glyphicon-tag"></i> Tipos</a>
 				</li>
 				<li>
+
 					<a href="<?php url('marca')?>"><i class="fa fa-table fa-fw"></i> Marcas</a>
+
+					<a href="<?php url('marca')?>"><i class="glyphicon glyphicon-indent-right"></i> Marca</a>
+
 				</li>
 				<li>
 					<a href="<?php url('venta')?>"><i class="fa fa-edit fa-fw"></i> Ventas</a>
